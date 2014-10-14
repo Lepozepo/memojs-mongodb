@@ -1,0 +1,17 @@
+{
+  "name": "memojs-mongodb",
+  "description": "A mongodb store implementation for memojs",
+  "keywords": ["memoize", "memoization", "cache", "mongodb"],
+  "homepage": "https://github.com/like-falling-leaves/memojs-mongodb",
+  "bugs": { "url": "https://github.com/like-falling-leaves/memojs-mongodb/issues" },
+  "license": "MIT",
+  "author": {"name": "Like FallingLeaves", "email": "likefallingleaves@gmail.com"},
+  "main": "./index.js",
+  "maintainers": [{"name": "Like FallingLeaves", "email": "likefallingleaves@gmail.com"}],
+  "version": "0.0.1",
+  "repository": { "type": "git", "url": "git://github.com/like-falling-leaves/memojs-mongodb.git" },
+  "readmeFilename": "README.md",
+  "dependencies": {"mongodb": "~1.2.0"},
+  "devDependencies": {},
+  "scripts": {}
+}
