@@ -13,7 +13,7 @@ module.exports = function createRedisStoreForMemoJS(previousStore, opts) {
         return done(null, collections[options.mongoUrl]);
       });
     }
-    if (!dontRecurse) return getClient(opts, true, done);
+    if (!dontRecurse) return getCollection(opts, true, done);
     return done('No MongoDB info specified');
   }
 
